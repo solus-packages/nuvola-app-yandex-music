@@ -1,0 +1,38 @@
+<PISI>
+    <Source>
+        <Name>nuvola-app-yandex-music</Name>
+        <Packager>
+            <Name>Stefan Ric</Name>
+            <Email>stfric369@gmail.com</Email>
+        </Packager>
+        <License>BSD-2-Clause</License>
+        <PartOf>desktop.multimedia</PartOf>
+        <Summary xml:lang="en">Yandex Music Integration for Nuvola Player 3.</Summary>
+        <Description xml:lang="en">Integration of Yandex Music into your linux desktop via Nuvola Player.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>nuvola-app-yandex-music</Name>
+        <Summary xml:lang="en">Yandex Music Integration for Nuvola Player 3.</Summary>
+        <Description xml:lang="en">Integration of Yandex Music into your linux desktop via Nuvola Player.
+</Description>
+        <PartOf>desktop.multimedia</PartOf>
+        <Files>
+            <Path fileType="data">/usr/share/nuvolaplayer3/web_apps/yandex_music/LICENSE-BSD.txt</Path>
+            <Path fileType="data">/usr/share/nuvolaplayer3/web_apps/yandex_music/LICENSE-CC-BY.txt</Path>
+            <Path fileType="data">/usr/share/nuvolaplayer3/web_apps/yandex_music/icon.png</Path>
+            <Path fileType="data">/usr/share/nuvolaplayer3/web_apps/yandex_music/integrate.js</Path>
+            <Path fileType="data">/usr/share/nuvolaplayer3/web_apps/yandex_music/metadata.json</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-05-26</Date>
+            <Version>1.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Stefan Ric</Name>
+            <Email>stfric369@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

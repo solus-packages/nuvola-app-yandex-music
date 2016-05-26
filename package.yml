@@ -13,6 +13,6 @@ builddeps  :
 rundeps    :
     - nuvolaplayer
 build      : |
-    %make 
+    %make
 install    : |
     %make_install DEST="$installdir/usr/share/nuvolaplayer3/web_apps"
